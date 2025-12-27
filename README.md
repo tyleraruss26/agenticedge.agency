@@ -45,3 +45,8 @@ Core capabilities include:
 
 AgenticEdge follows a **retrieval-first, guarded, multi-agent design**:
 
+## Governance & Contributions
+
+- **Authoritative rules live in [`docs/agent-principles.md`](docs/agent-principles.md)**. Every agent and workflow change must comply with these guardrails: retrieval-first reasoning, explicit fail-safes, auditability, and required human approvals for risky actions.
+- Keep pull requests **small, additive, and reviewable**. Document assumptions, risks, and domain ownership for each agent to preserve compliance and traceability.
+
